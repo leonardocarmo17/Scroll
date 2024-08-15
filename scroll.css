@@ -1,0 +1,37 @@
+
+::-webkit-scrollbar {
+    width: 0.8vw;
+    background: #000000;
+}
+::-webkit-scrollbar-thumb {
+    background: gray;
+}
+::-webkit-scrollbar:hover {
+    width: 0.9vw;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: darkgray;
+}
+::-webkit-scrollbar-button {
+    background: gray;
+    height: 16px;
+}
+::-webkit-scrollbar-button:single-button:vertical:decrement {
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="gray" viewBox="0 0 24 24"><path d="M12 8l6 6H6z"/></svg>') center no-repeat;
+    background-size: 50%;
+}
+::-webkit-scrollbar-button:single-button:vertical:increment {
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="gray" viewBox="0 0 24 24"><path d="M12 16l-6-6h12z"/></svg>') center no-repeat;
+    background-size: 50%;
+}
+::-webkit-scrollbar-button:single-button:horizontal:decrement {
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="gray" viewBox="0 0 24 24"><path d="M8 12l6-6v12z"/></svg>') center no-repeat;
+    background-size: 50%;
+}
+::-webkit-scrollbar-button:single-button:horizontal:increment {
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="gray" viewBox="0 0 24 24"><path d="M16 12l-6 6V6z"/></svg>') center no-repeat;
+    background-size: 50%;
+}
+::-webkit-scrollbar-button:hover {
+    background: darkgray;
+}
